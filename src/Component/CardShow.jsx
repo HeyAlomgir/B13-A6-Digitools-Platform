@@ -32,7 +32,7 @@ const handleCartRemove=(cart)=>{
                 </div>:
                 <div className='space-y-8'>
 
-                {carts.map(cart  => <div className='flex justify-between bg-[#F9FAFC] p-5 items-center rounded-2xl shadow-2xl transform transition hover:scale-102'>
+                {carts.map(cart  => <div  key={cart.id} className='flex justify-between bg-[#F9FAFC] p-5 items-center rounded-2xl shadow-2xl transform transition hover:scale-102'>
 
                 
                     <div className='flex gap-3 items-center '>

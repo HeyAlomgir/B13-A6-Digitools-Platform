@@ -37,7 +37,7 @@ const Cart = ({model,carts,setCarts}) => {
                       <button className='btn bg-[#FEF3C6] text-[#BB4D00] rounded-full'>{tagType}</button>
                       </div>
 
-                <p className='text-3xl flex items-center'>${model.price} <p className='text-[#777777] text-xl'>/{period}</p>  </p>
+                <p className='text-3xl flex items-center'>${model.price} <span className='text-[#777777] text-xl'>/{period}</span>  </p>
 
 
 

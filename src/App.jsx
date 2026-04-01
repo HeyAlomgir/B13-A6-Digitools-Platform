@@ -12,12 +12,17 @@ import CardShow from './Component/CardShow'
 import { ToastContainer } from 'react-toastify'
 import Step from './Component/Step'
 
+import Pricing from './Component/Pricing'
+
 
 const modelPromise = fetch("/model.json")
 .then(res => res.json())
 
 const stepPromise =fetch("/step.json")
 .then(res => res.json())
+
+const pricingPromise =fetch("/pricing.json")
+.then(res => res.json());
 
 
 function App() {
@@ -68,6 +73,9 @@ function App() {
      <Suspense fallback={<span className="loading loading-bars loading-xl w-5xl  bg-zinc-300"></span>}></Suspense>
 
      <Step stepPromise={stepPromise}></Step>
+
+      <Pricing pricingPromise={pricingPromise}></Pricing>
+
 
      </main>
 

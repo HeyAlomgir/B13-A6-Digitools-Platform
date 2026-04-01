@@ -27,7 +27,7 @@ const Cart = ({model,carts,setCarts}) => {
     }
     return (
         <div className=''>
-            <div className='shadow-2xl space-y-3 p-5  relative m-4 rounded-xl transform transition hover:scale-110'>
+            <div className='shadow-2xl space-y-3 p-5  relative m-4 rounded-xl transform transition hover:scale-105'>
                 <div className=' p-5 shadow-2xl rounded-full w-fit' ><img src={model.img} alt="" /></div>
                 
                 <h2 className='text-3xl'>{name}</h2>

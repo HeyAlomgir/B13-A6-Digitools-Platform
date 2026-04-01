@@ -25,7 +25,7 @@ function App() {
   return (
     <>
      <header>
-      <Navbar></Navbar>
+      <Navbar carts={carts} ></Navbar>
       <Banner></Banner>
      </header>
 

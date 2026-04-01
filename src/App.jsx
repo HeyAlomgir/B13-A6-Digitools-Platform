@@ -10,9 +10,13 @@ import Footer from './Footer'
 import Cart from './Component/Cart'
 import CardShow from './Component/CardShow'
 import { ToastContainer } from 'react-toastify'
+import Step from './Component/Step'
 
 
 const modelPromise = fetch("/model.json")
+.then(res => res.json())
+
+const stepPromise =fetch("/step.json")
 .then(res => res.json())
 
 
@@ -57,7 +61,13 @@ function App() {
 
 
        {activeCart==="cart" && <CardShow carts={carts} setCarts={setCarts}></CardShow> }
+
      </Suspense>
+
+
+     <Suspense fallback={<span className="loading loading-bars loading-xl w-5xl  bg-zinc-300"></span>}></Suspense>
+
+     <Step stepPromise={stepPromise}></Step>
 
      </main>
 

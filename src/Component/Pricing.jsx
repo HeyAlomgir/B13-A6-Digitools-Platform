@@ -6,7 +6,7 @@ const Pricing = ({pricingPromise}) => {
     console.log(pricing);
     return (
         <div className='container mx-auto'>
-            <div className='text-center mt-10'>
+            <div className='text-center mt-20 space-y-3'>
                 <h1 className='text-2xl md:text-4xl'>Simple, Transparent Pricing</h1>
                 <p className='text-[#777777]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 

@@ -1,9 +1,10 @@
 import React from 'react';
+import Feature from './Feature';
 
 const PricingCard = ({pricingD}) => {
     const {name,description,price,period,features,buttonText}= pricingD;
     return (
-        <div className='shadow-2xl  p-5  relative m-4 rounded-xl transform transition hover:scale-105  space-y-5 text-left'>
+        <div className='shadow-2xl  p-5  relative m-4 rounded-xl transform transition hover:scale-105  space-y-5 text-left mt-10'>
             <h3 className='text-2xl'>{name} </h3>
             <p className='text-[#777777]'>{description}</p>
 
@@ -12,9 +13,9 @@ const PricingCard = ({pricingD}) => {
                 <p className='text-[#777777]'>/{period}</p>
             </div>
 
-            <div>
+            <div className='space-y-2'>
                 {
-                    features
+                    features.map(feature => <Feature feature={feature} key={feature.id}></Feature> )
                 }
             </div>
 

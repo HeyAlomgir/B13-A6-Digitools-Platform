@@ -1,0 +1,78 @@
+[
+  {
+    "id": "starter-01",
+    "name": "Starter Plan",
+    "description": "Essential tools for individuals looking to build their first professional resume.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free Forever",
+    "tagType": "new",
+    "features": ["3 basic templates", "ATS optimization", "Export to PDF"],
+    "icon": "lucide:rocket",
+     "img":"https://i.ibb.co.com/YS5sjcM/writing-2327400-1.png"
+   
+  },
+  {
+    "id": "pro-monthly-02",
+    "name": "Pro Monthly",
+    "description": "Full access to all premium features with a flexible monthly commitment.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "AI bullet point generator", "Unlimited PDF exports", "Cover letter builder"],
+    "icon": "lucide:zap",
+     "img":"https://i.ibb.co.com/G3pjQm4Z/design-tool.png"
+  
+  },
+  {
+    "id": "pro-yearly-03",
+    "name": "Pro Yearly",
+    "description": "Get the full Pro experience while saving 40% over the monthly plan.",
+    "price": 89.99,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": ["Everything in Pro Monthly", "Priority support", "Personal branding website", "LinkedIn profile audit"],
+    "icon": "lucide:star",
+    "img":"https://i.ibb.co.com/Q3jjyVjM/portfolio.png"
+  },
+  {
+    "id": "team-04",
+    "name": "Team Access",
+    "description": "Collaborative features for career coaches and small recruitment teams.",
+    "price": 49.00,
+    "period": "monthly",
+    "tag": "Team Favorite",
+    "tagType": "popular",
+    "features": ["Up to 5 users", "Shared template library", "Client management dashboard", "Custom branding"],
+    "icon": "lucide:users",
+      "img" :"https://i.ibb.co.com/qLGg4Z7D/operation.png"
+   
+  },
+  {
+    "id": "lifetime-05",
+    "name": "Lifetime Pass",
+    "description": "One payment for a lifetime of career growth and unlimited updates.",
+    "price": 199.00,
+    "period": "one-time",
+    "tag": "Limited Offer",
+    "tagType": "new",
+    "features": ["Lifetime access", "All future templates", "White-glove formatting", "Early access to AI tools"],
+    "icon": "lucide:crown",
+    "img":"https://i.ibb.co.com/Nd4mRFdw/social-media.png"
+
+  },
+  {
+    "id": "enterprise-06",
+    "name": "Enterprise",
+    "description": "Custom solutions for universities and large scale organizations.",
+    "price": 499.00,
+    "period": "yearly",
+    "tag": "Scalable",
+    "tagType": "popular",
+    "features": ["SSO Integration", "Custom API access", "Bulk user importing", "Dedicated account manager"],
+    "icon": "lucide:building",
+    "img":"https://i.ibb.co.com/Q3jjyVjM/portfolio.png"
+  }
+]

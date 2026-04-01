@@ -11,7 +11,9 @@ const Banner = () => {
                 <div className='flex-1 space-y-5  py-5 m-4 '>
                     <p className='bg-[#E6E6FA] flex items-center gap-3 text-blue-500 w-fit p-2 rounded-full '> <FaCircleDot></FaCircleDot> New: AI-Powered Tools Available</p>
                     
-                    <h2 className=' text-2xl md:text-3xl lg:text-5xl'>Supercharge Your  <br />Digital Workflow</h2>
+                    <h2 className=' text-2xl md:text-3xl lg:text-5xl'>Supercharge Your </h2>
+                    <h2 className=' text-2xl md:text-3xl lg:text-5xl text-[#4F39F6] '>Digital Workflow </h2>
+                    
 
                     <p className='text-[#777777] '>Access premium AI tools, design assets, templates, and productivity <br /> software—all in one place. Start creating faster today. Explore Products</p>
 
